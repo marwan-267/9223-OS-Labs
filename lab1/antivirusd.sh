@@ -1,7 +1,6 @@
-#!/bin/bash
-
 FLAGGED_EXTENSIONS=(.exe .bat .vbs .scr .ps1)
 FLAGGED_KEYWORDS=(virus trojan malware worm ransomware)
+
 
 if [ $# -ne 3 ]; then
     echo "Usage: $0 dir malicious_dir interval-secs" >&2
